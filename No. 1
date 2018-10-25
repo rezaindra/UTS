@@ -1,0 +1,86 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int  harga1, harga2, harga3, harga4, harga5, harga6, harga7, harga8, harga9, harga10, jumlah1, jumlah2, jumlah3, jumlah4, jumlah5, jumlah6, jumlah7, jumlah8, jumlah9, jumlah10, total;
+    char nama [20];
+    cout<<"    * PROGRAM PENJUALAN BARANG *\n";
+    cout<<"------------------------------------\n";
+    
+    cout<< "Masukan Nama Barang    : ";
+    cin>> nama;
+    cout<<"Masukan Harga Barang   : ";
+    cin>> harga1;
+    cout<<"Jumlah Beli            : ";
+    cin>> jumlah1;
+    
+    cout<<"\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<<"Masukan Harga Barang   : ";
+    cin>> harga2;
+    cout<<"Jumlah Beli            : ";
+    cin>> jumlah2;
+    
+    cout<<"\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<<"Masukan Harga Barang   : ";
+    cin>> harga3;
+    cout<<"Jumlah Beli            : ";
+    cin>> jumlah3;
+    
+    cout<< "\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<< "Masukan Harga Barang   : ";
+    cin>> harga4;
+    cout<< "Jumlah Beli            : ";
+    cin>> jumlah4;
+    
+    cout<< "\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<< "Masukan Harga Barang   : ";
+    cin>> harga5;
+    cout<< "Jumlah Beli            : ";
+    cin>> jumlah5;
+    
+    cout<< "\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<< "Masukan Harga Barang   : ";
+    cin>> harga6;
+    cout<< "Jumlah Beli            : ";
+    cin>> jumlah6;
+    
+    cout<< "\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<< "Masukan Harga Barang   : ";
+    cin>> harga7;
+    cout<< "Jumlah Beli            : ";
+    cin>> jumlah7;
+    
+    cout<< "\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<< "Masukan Harga Barang   : ";
+    cin>> harga8;
+    cout<< "Jumlah Beli            : ";
+    cin>> jumlah8;
+    
+    cout<< "\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<< "Masukan Harga Barang   : ";
+    cin>> harga9;
+    cout<< "Jumlah Beli            : ";
+    cin>> jumlah9;
+    
+    cout<< "\nMasukan Nama Barang    : ";
+    cin>> nama;
+    cout<< "Masukan Harga Barang   : ";
+    cin>> harga10;
+    cout<< "Jumlah Beli            : ";
+    cin>> jumlah10;
+    cout<< "------------------------------------" << endl;
+    
+    total = (harga1 * jumlah1) + (harga2 * jumlah2) + (harga3 * jumlah3) + (harga4 * jumlah4) + (harga5 * jumlah5) + (harga6 * jumlah6) + (harga7 * jumlah7) + ( harga8 * jumlah8) + (harga9 * jumlah9) + (harga10 * jumlah10);
+ 
+    cout << "Total                    : " << total << endl;
+    return 0;
+}
