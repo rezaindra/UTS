@@ -5,17 +5,18 @@ using namespace std;
 int main()
 {
     int bulan;
-    float saldo,bunga,badmin,jmlh;
-    cout<<"Saldo anda :";
+    float saldo,bunga,badmin,jmlh,sbunga,sbadmin;
+    
+    cout<<"Saldo anda : ";
     cin>>saldo;
-    cout<<"Lama menabung";
+    cout<<"Lama menabung : ";
     cin>>bulan;
-bunga=6%/12
-badmin=0.125%/30
-jumlah=saldo*
-    cout<<"jumlah saldo anda adalah: ";
     
-    
+    bunga=(0.06);
+    badmin=(0.00125/16);
+    jmlh= (saldo) + (saldo*bunga) - (saldo*badmin);
+    cout<<"Saldo Terkahir: " << jmlh;
+
 
 return 0;
 }
