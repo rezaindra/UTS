@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int bulan;
+    float saldo,bunga,badmin,jmlh;
+    cout<<"Saldo anda :";
+    cin>>saldo;
+    cout<<"Lama menabung";
+    cin>>bulan;
+bunga=6%/12
+badmin=0.125%/30
+jumlah=saldo*
+    cout<<"jumlah saldo anda adalah: ";
+    
+    
+
+return 0;
+}
